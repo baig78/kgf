@@ -1,0 +1,24 @@
+.create-user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.create-user-button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #006ae8; /* Adjust this color to your design */
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.create-user-button:hover {
+  background-color: #005bb5;
+}
